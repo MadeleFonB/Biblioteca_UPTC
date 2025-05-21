@@ -1,6 +1,10 @@
 
 # Biblioteca UPTC
 
+## Diagrama de clases
+
+carpeta resources/static/Diagrama de clases
+
 ## Descripción
 
 Aplicación backend para la gestión de una biblioteca universitaria, que permite administrar libros, usuarios y préstamos usando Spring Boot y PostgreSQL.
@@ -68,6 +72,7 @@ src/main/java/com/upct/biblioteca/
 
 Se usa spring.jpa.hibernate.ddl-auto=update para manejar la creación y actualización automática de tablas.
 Usar con cuidado la base de datos en producción.
-Autor
+
+## Autor
 
 Madeleine Daniela Fonseca Bernal
