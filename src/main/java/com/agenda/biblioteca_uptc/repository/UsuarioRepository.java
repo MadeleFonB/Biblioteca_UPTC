@@ -1,0 +1,9 @@
+package com.agenda.biblioteca_uptc.repository;
+
+import com.agenda.biblioteca_uptc.model.Usuario;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface UsuarioRepository extends JpaRepository<Usuario, Long> {
+}
